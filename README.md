@@ -1,4 +1,12 @@
-# Self charging autonomous robot using arduino 
-An intelligent self-charging autonomous line follower robot using Arduino. It monitors battery level and automatically docks for charging when it drops below 30%, then resumes operation after full recharge. The project integrates embedded systems, power management, autonomous navigation, and FSM-based control.
+# Self-Charging Autonomous Robot Car 🚗🔋
 
-Aim 
+## Description
+This project is an Arduino-based robot that automatically goes to a charging station when battery drops to 30%.
+
+## Features
+- Autonomous navigation
+- Battery monitoring
+- Auto docking & charging
+
+## Author
+Akshaya Govindaswamy
