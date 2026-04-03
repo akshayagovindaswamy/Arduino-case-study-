@@ -1,1 +1,54 @@
+## 1. Introduction
+Autonomous robotic systems are becoming increasingly important in modern technology, especially in areas such as automation, logistics, and smart devices. One of the major challenges in such systems is energy management. This project presents the design and implementation of a self-charging autonomous robot car using an Arduino-based control system. The robot is capable of navigating independently, monitoring its battery level, and automatically returning to a charging station when the battery drops to 30%.
+
+## 2. Aim
+To design and develop an autonomous robot car that can monitor its battery level and automatically navigate to a charging station when the charge drops to 30%, ensuring continuous operation.
+
+## 3. Objectives
+To build an autonomous robot using Arduino
+To implement obstacle detection and avoidance
+To monitor battery voltage continuously
+To trigger auto-return at 30% battery level
+To design an automatic docking and charging system
+To ensure efficient and uninterrupted robot operation
+
+## 4. Scope
+This system can be applied in:
+Warehouse automation
+Delivery robots
+Cleaning robots (like vacuum bots)
+Industrial automation systems
+
+Future enhancements may include AI-based navigation, wireless charging, and GPS tracking.
+
+## 5. Components Used
+Arduino Uno
+Motor driver (L298N)
+DC motors with wheels
+Ultrasonic sensor (HC-SR04)
+Battery (Li-ion/LiPo)
+Voltage sensor module
+Charging station (metal contacts or docking pins)
+Chassis
+
+## 6. Working Procedure
+Initialization
+The robot powers on and initializes sensors, motors, and battery monitoring.
+Autonomous Movement
+The robot moves forward and avoids obstacles using ultrasonic sensors.
+Battery Monitoring
+The voltage sensor continuously checks battery level.
+Threshold Detection (30%)
+When battery reaches 30%, a return signal is triggered.
+Return to Charging Station
+The robot follows a predefined path (line following or stored direction).
+Docking
+The robot aligns with the charging station and connects to charging pins.
+Charging
+Battery is recharged until full.
+Resume Operation
+Robot resumes autonomous navigation.
+
+## 7. Conclusion
+The project successfully demonstrates a self-sustaining robotic system capable of autonomous navigation and energy management. This system reduces human intervention and improves efficiency, making it suitable for real-world automation applications.
 
